@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+    color: lightblue;
+}
+
+article ul .category {
+    color: orange;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+article ul img {
+    margin: 20px 0;
+    width: 200px;
+    border: 8px solid lightgray;
+    border-radius: 40px;
+}
+
+article ul img:hover {
+    box-shadow: 2px 2px 10px 2px orange;
+}
+
+article ul .circular {
+    border-radius: 50%;
+}
+
+article ol .first-item {
+    color: cornflowerblue;
+}
